@@ -33,7 +33,7 @@ Configure Logstash:
   		stdout { codec => rubydebug }
   		elasticsearch {
     			hosts => [ "elasticsearch:9200" ]
-    			index => "ewp_noman_drop-%{+YYYY.MM.dd}"
+    			index => "noman_drop-%{+YYYY.MM.dd}"
   		}
 	}
 	#
